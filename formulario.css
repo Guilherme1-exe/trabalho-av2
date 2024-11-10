@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e3f2fd; /* Fundo azul claro */
+    font-family: 'Arial', sans-serif;
+    background-image: url('body.png');
+  }
+  form {
+    background-color: #ffffff; /* Fundo branco */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 350px;
+  }
+  form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1976d2; /* Azul escuro */
+  }
+  label {
+    font-weight: bold;
+    color: #0d47a1; /* Azul mais escuro */
+    margin-top: 10px;
+    display: block;
+  }
+  input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #90caf9; /* Borda azul clara */
+    border-radius: 8px;
+    background-color: #f1f8ff; /* Fundo azul clarinho */
+  }
+  input:focus {
+    outline: none;
+    border-color: #1976d2; /* Borda azul ao focar */
+    box-shadow: 0 0 5px rgba(25, 118, 210, 0.2);
+  }
+  .error {
+    color: #d32f2f; /* Vermelho para erros */
+    font-size: 0.85em;
+    margin-top: -10px;
+    margin-bottom: 10px;
+  }
+  button {
+    background-color: #1976d2; /* Azul escuro */
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+  }
+  button:hover {
+    background-color: #0d47a1; /* Azul mais escuro ao passar o mouse */
+    }
+  #voltara{
+      margin-top: 5px;
+    }
+    

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+  <html>
+   <head>
+     <meta charset='utf-8'>
+      <title>Physical Sports</title>
+       <link rel="shortcut icon" href="abrevia.png">
+     <link rel='stylesheet' href='style.css'>
+   </head>
+
+   <body>
+    <!--cabeçalho do site-->
+      <div class='cabecalho'>
+          <img id='logo'src='logo.png' alt='Physical Sports'width=500px height=250px>
+        <nav class='link'>
+          <ul>
+              <li><a href='index.html'>Página Inicial</a></li>
+              <li><a href='camisas.html'>Camisas Disponíveis</a></li>
+              <li><a href='somos.html'>Quem Somos</a></li>
+              <li><a href="#forms">Suporte</a></li>
+              <li><a href="Cadastro.html">Login</a></li>
+            </ul>
+            </nav>
+    </div>
+    <!--carrossel-->
+    <div class="container-content">
+      <div class="slider">
+        <div class="slides">
+          <input type="radio" onclick="acao(1)" name="radio-button" id="radio1" />
+          <input type="radio" onclick="acao(2)" name="radio-button" id="radio2" />
+          <input type="radio" onclick="acao(3)" name="radio-button" id="radio3" />
+          <input type="radio" onclick="acao(4)" name="radio-button" id="radio4" />
+
+          <div class="slide first">
+            <img src="banner1.png" />
+            
+          </div>
+          <div class="slide second">
+            <img src="europa.png" />
+            
+          </div>
+          <div class="slide third">
+            <img src="timesbr.jpg" />
+            
+          </div>
+          <div class="slide fourth">
+            <img src="Seleções.png" />
+            
+          </div>
+
+          <div class="navigation-auto">
+            <div class="auto-button1"></div>
+            <div class="auto-button2"></div>
+            <div class="auto-button3"></div>
+            <div class="auto-button4"></div>
+          </div>
+        </div>
+
+        <div class="manual-navigation">
+          <label for="radio1" class="manual-button"></label>
+          <label for="radio2" class="manual-button"></label>
+          <label for="radio3" class="manual-button"></label>
+          <label for="radio4" class="manual-button"></label>
+        </div>
+      </div>
+    </div>
+
+     <!--mini anuncios-->
+    <div class='produtos'>
+      <div class='produto'>
+        <center><img class='camisas'src='barcelona1.png'></center>
+        <p class='desc'>Camisa Barcelona 2023 Home</p>
+        <p class='precos'>R$199,90</p>
+      </div>
+      <div class='produto'>
+        <center><img class='camisas' src='real.png'></center>
+        <p class='desc'>Camisa Real Madrid 2023 Home</p>
+        <p class='precos'>R$199,90</p>
+      </div>
+      <div class='produto'>
+        <center><img class='camisas'src='flamengo.png'></center>
+         <p class='desc'>Camisa Flamengo 2023 Home</p>
+         <p class='precos'>R$199,90</p>
+      </div>
+      <div class='produto'>
+         <center><img class='camisas'src='arsenal.png'></center>
+         <p class='desc'>Camisa Arsenal 2023 Treino</p>
+         <p class='precos'>R$199,90</p>
+      </div>
+      <div class='produto'>
+        <center><img class='camisas'src='bayern.png'></center>
+         <p class='desc'>Camisa Bayern de Munique 2023 Home</p>
+         <p class='precos'>R$199,90</p>
+      </div>
+    </div>
+     
+     <!-- foto da promoção-->
+      <center><img id='foto2' src='banner2.png'alt='foto da promoção de camisa de seleções'></center>
+     <!-- aviso -->
+     <div class='aviso'>
+      <h1>Aviso</h1>
+        <p>No momento estamos apenas vendendo em nossa loja física, em breve estaremos montando nossa loja virtual :) </p>
+        <img src='emojii.png'>
+
+     </div>
+      <!-- formulário -->
+     <div id='forms'>
+        
+         <form method='Post' action='aula4.py'>
+           <fieldset><legend class='suporte'>Fale conosco</legend>
+             <p class='textsuporte'><label>Nome:<input type='text' size=40 name='nome' maxlength=40 placeholder='Nome Completo' required /></p></label>
+              <p class='textsuporte'><label>Email:<input type='email' name='email' size=41 placeholder='exemple@exemple.com' required/></label></p>
+               <p class='textsuporte'>Escolha o tipo de comentário:
+                 <label><input type='radio' name='interesse' checked />Reclamação</label>
+                 <label><input type='radio' name='interesse' />Elogio</label>
+                 <label><input type='radio' name='interesse' />Perguntas</label>
+                 <label><input type='radio' name='interesse' />Localização</label>
+                 <label><input type='radio' name='interesse' />Outros</label></p>
+                   <p class='textsuporte'><textarea cols=40 rows=10 placeholder='digite aqui seu comentário' maxlength=500></textarea></p> 
+                   <p class='textsuporte'><input type='submit'value='Enviar comentário' />
+                   <input type='reset' value='Limpar dados' />
+                     </fieldset>
+                     </form>
+                
+     </div>
+    <!-- final da página-->
+    <div id='final'>
+      <nav class='link'>
+        <ul>
+           <center><li><a href='#'>Voltar ao Topo</a></li></center>
+          </ul>
+          </nav>
+      <pre class='lugar'>R. Gastão Gonçalves, 79 - Santa Rosa, Niterói - RJ.
+CEP: 24240-030
+TEL: (21) 4002-8922
+© Guilherme Oliveira de Moraes e Guilherme Rodrigues leite</pre>
+      
+    </div>
+    <script src="script.js"></script>
+   </body>
+  </html>
